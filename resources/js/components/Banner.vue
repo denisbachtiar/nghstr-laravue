@@ -5,7 +5,7 @@
         <b-row>
             <b-col cols="6">
                 <h1 class="mb-3"><b>PHP Hosting</b></h1>
-                <h2 class="mb-3"><b>Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</b></h2>
+                <h2 class="mb-3">Cepat, handal, penuh dengan modul PHP yang Anda butuhkan</h2>
                 <ul>
                     <li>Solusi PHP untuk performa query lebih cepat.</li>
                     <li>Konsumsi memori yang lebih rendah</li>

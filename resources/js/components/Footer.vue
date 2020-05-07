@@ -1,8 +1,9 @@
 <template>
     <div>
         <div class="bg-sky pt-5 pb-5">
-            <div class="container">
-                <h1 class="text-white mb-0">Perlu <b>BANTUAN?</b> Hubungi Kami : <b>0274-5305505</b></h1>
+            <div class="container d-flex align-items-center">
+                <h2 class="text-white mb-0">Perlu <b>BANTUAN?</b> Hubungi Kami : <b>0274-5305505</b></h2>
+                <b-button variant="outline-secondary" class="ml-auto" pill>Live Chat</b-button>
             </div>
         </div>
 
@@ -44,7 +45,7 @@
                         required
                         placeholder="Email"
                         ></b-form-input>
-                        <p class="disable">Dapatkan promo dan konten menarik dari penyedia hosting terbaik anda</p>
+                        <p class="disable"><small>Dapatkan promo dan konten menarik dari penyedia hosting terbaik anda</small></p>
                     </b-col>
                     <b-col cols="3">
                         <p class="title"><b>Social Media</b></p>

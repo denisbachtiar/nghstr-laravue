@@ -13,12 +13,22 @@
   src: url(/fonts/Montserrat-Hairline.otf?af3ac151d996baa94cb52c8a3fe01218);
 }
 
+@font-face {
+  font-family: roboto-medium;
+  src: url(/fonts/Roboto-Medium.ttf?9745415b8a2a8b9a2480a12f7e2d3ad3);
+}
+
+@font-face {
+  font-family: roboto-light;
+  src: url(/fonts/Roboto-Light.ttf?d5c46b134c17b2138dcd1bb0efa67049);
+}
+
 body {
   font-family: montserrat-light !important;
   color: #4c4c4c !important;
 }
 
-h1 {
+h1 b {
   font-family: montserrat-bold !important;
 }
 
@@ -26,11 +36,32 @@ h2 {
   font-family: montserrat-hairline !important;
 }
 
-h2.font-bold {
+h2 b {
   font-family: montserrat-bold !important;
 }
 
+h3 {
+  font-family: montserrat-light !important;
+}
+
 h3.font-bold {
+  font-family: montserrat-bold !important;
+}
+
+h5 {
+  font-family: montserrat-bold !important;
+}
+
+p b {
+  font-family: montserrat-bold !important;
+}
+
+ul {
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+}
+
+ul li b {
   font-family: montserrat-bold !important;
 }
 
@@ -85,3 +116,65 @@ h3.font-bold {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+.list-group-item {
+  text-align: center;
+  padding: 0.5rem 1.25rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.list-group-item:nth-child(2) {
+  background-color: #f7f7f7;
+}
+
+.list-group-item:first-child {
+  border-radius: unset !important;
+}
+
+.list-group-item:last-child {
+  border-radius: unset !important;
+}
+
+hr {
+  border-top: 4px solid #f1f1f1 !important;
+  width: 90px;
+}
+
+.btn.btn-primary {
+  background-color: #1690ef !important;
+  border-color: #1690ef !important;
+  padding: 10px 20px !important;
+  font-family: montserrat-bold !important;
+  font-size: 1.1rem !important;
+}
+
+.btn.btn-outline-dark {
+  color: #4c4c4c;
+  padding: 10px 30px !important;
+  font-family: montserrat-bold !important;
+  font-size: 1.1rem !important;
+  border: 2px solid !important;
+}
+
+.btn.btn-outline-secondary {
+  color: #ffffff;
+  padding: 10px 30px !important;
+  font-family: montserrat-light !important;
+  font-size: 1.1rem !important;
+  border: 2px solid #ffffff !important;
+}
+
+footer p {
+  font-family: roboto-light !important;
+}
+
+footer p.title {
+  font-family: roboto-medium !important;
+}
+
+footer hr {
+  border-top: 1px solid #292929 !important;
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=app.css.map*/

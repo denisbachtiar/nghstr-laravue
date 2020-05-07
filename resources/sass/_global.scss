@@ -3,19 +3,41 @@ body {
     color: $black !important;
 }
 h1 {
-    font-family: montserrat-bold !important;
+    b {
+        font-family: montserrat-bold !important;
+    }
 }
 
 h2 {
     font-family: montserrat-hairline !important;
-    &.font-bold {
+    b {
         font-family: montserrat-bold !important;
     }
 }
 
 h3 {
+    font-family: montserrat-light !important;
     &.font-bold {
         font-family: montserrat-bold !important;
+    }
+}
+
+h5 {
+    font-family: montserrat-bold !important;
+}
+
+p {
+    b {
+        font-family: montserrat-bold !important;
+    }
+}
+
+ul {
+    padding-inline-start: 15px;
+    li {
+        b {
+            font-family: montserrat-bold !important;
+        }
     }
 }
 
@@ -70,5 +92,62 @@ h3 {
             font-family: montserrat-bold !important;
             border-bottom: 1px solid rgba(0, 0, 0, 0.125);
         }
+    }
+}
+
+.list-group-item {
+    text-align: center;
+    padding: 0.5rem 1.25rem !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    &:nth-child(2) {
+        background-color: #f7f7f7;
+    }
+    &:first-child {
+        border-radius: unset !important;
+    }
+    &:last-child {
+        border-radius: unset !important;
+    }
+}
+
+hr {
+    border-top: 4px solid #f1f1f1 !important;
+    width: 90px;
+}
+
+.btn {
+    &.btn-primary {
+        background-color: #1690ef !important;
+        border-color: #1690ef !important;
+        padding: 10px 20px !important;
+        font-family: montserrat-bold !important;
+        font-size: 1.1rem !important;
+    }
+    &.btn-outline-dark {
+        color: #4c4c4c;
+        padding: 10px 30px !important;
+        font-family: montserrat-bold !important;
+        font-size: 1.1rem !important;
+        border: 2px solid !important;
+    }
+    &.btn-outline-secondary {
+        color: #ffffff;
+        padding: 10px 30px !important;
+        font-family: montserrat-light !important;
+        font-size: 1.1rem !important;
+        border: 2px solid #ffffff !important;
+    }
+}
+
+footer {
+    p {
+        font-family: roboto-light !important;
+        &.title {
+            font-family: roboto-medium !important;
+        }
+    }
+    hr {
+        border-top: 1px solid #292929 !important;
+        width: 100%;
     }
 }

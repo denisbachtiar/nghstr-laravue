@@ -21,6 +21,16 @@ $line-height-base: 1.6;
     src: url(../../public/fonts/montserrat/Montserrat-Hairline.otf);
 }
 
+@font-face {
+    font-family: roboto-medium;
+    src: url(../../public/fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(../../public/fonts/roboto/Roboto-Light.ttf);
+}
+
 // Colors
 $black: #4c4c4c;
 $blue: #3490dc;
