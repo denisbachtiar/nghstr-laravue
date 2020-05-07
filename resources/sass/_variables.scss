@@ -6,7 +6,23 @@ $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
+@font-face {
+    font-family: montserrat-light;
+    src: url(../../public/fonts/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../../public/fonts/montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: montserrat-hairline;
+    src: url(../../public/fonts/montserrat/Montserrat-Hairline.otf);
+}
+
 // Colors
+$black: #4c4c4c;
 $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;

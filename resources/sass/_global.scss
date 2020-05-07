@@ -1,0 +1,74 @@
+body {
+    font-family: montserrat-light !important;
+    color: $black !important;
+}
+h1 {
+    font-family: montserrat-bold !important;
+}
+
+h2 {
+    font-family: montserrat-hairline !important;
+    &.font-bold {
+        font-family: montserrat-bold !important;
+    }
+}
+
+h3 {
+    &.font-bold {
+        font-family: montserrat-bold !important;
+    }
+}
+
+.nav-parent {
+    border-top: solid 1px #f1f1f1;
+    border-bottom: solid 1px #f1f1f1;
+    padding: 10px 0px 10px 0px;
+    .navbar {
+        .navbar-brand {
+            width: 18%;
+        }
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: $black !important;
+        } 
+    }
+}
+.jumbotron-parent {
+    border-bottom: solid 1px #f1f1f1;
+    margin-bottom: 50px;
+    .jumbotron {
+        background-color: #ffffff !important;
+        padding: 4rem unset !important;
+        margin-bottom: unset !important;
+         ul {
+             padding-inline-start: 15px;
+             li {
+                 font-family: montserrat-hairline !important;
+                 margin-bottom: 10px;
+             }
+         }
+     }
+}
+
+.feature {
+    p {
+        font-family: montserrat-hairline !important;
+    }
+}
+
+.card {
+    .card-body {
+        text-align: center;
+        padding: .5rem 0px !important;
+        .card-title {
+            font-weight: bold;
+            padding-bottom: .5rem !important;
+            font-family: montserrat-bold !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        }
+    }
+}
