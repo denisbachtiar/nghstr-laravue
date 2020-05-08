@@ -1,10 +1,10 @@
 <template>
 <div>
 <div class="top-nav d-flex align-items-center container pt-2 pb-2">
-    <div>
-        <p class="mb-0"><small>Gratis Ebook 9 Cara Cerdas Menggunakan Domain</small></p>
+    <div class="l-top-nav">
+        <p class="mb-0"><img :src="'/images/ribbon.png'"><small> Gratis Ebook 9 Cara Cerdas Menggunakan Domain</small></p>
     </div>
-    <div class="ml-auto d-flex align-items-center">
+    <div class="ml-auto d-flex align-items-center r-top-nav">
         <p class="mb-0"><span class="iconify" data-icon="fxemoji:telephonereceiver2" data-inline="false"></span> 0274-5305505</p>
         <p class="mb-0 ml-3"><span class="iconify" data-icon="zmdi:comments" data-inline="false"></span> Live Chat</p>
         <p class="mb-0 ml-3"><span class="iconify" data-icon="zondicons:user-solid-circle" data-inline="false"></span> Member Area</p>

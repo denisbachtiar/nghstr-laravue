@@ -32,6 +32,10 @@ p {
     }
 }
 
+.bg-sky {
+    background-color: #1fa2f3;
+}
+
 ul.list {
     padding-inline-start: 0px !important;
     li {
@@ -207,6 +211,10 @@ ul.list {
     }
 }
 
+.modul {
+    text-align: center;
+}
+
 hr {
     border-top: 4px solid #f1f1f1 !important;
     width: 90px;
@@ -237,15 +245,51 @@ hr {
 }
 
 footer {
+    background-color: #303030;
     p {
+        color: #d8d8d8;
         font-family: roboto-light !important;
+        font-size: 14px;
         &.title {
+            color: #8e8e8e;
+            text-transform: uppercase;
             font-family: roboto-medium !important;
+            font-size: 16px;
+        }
+        &.disable {
+            color: #646464;
         }
     }
     hr {
         border-top: 1px solid #292929 !important;
         width: 100%;
+    }
+    .form-control {
+        border-radius: 50px !important;
+        height: 45px !important;
+        font-size: 15px;
+        padding: 0px 20px;
+        &::placeholder {
+            color: #acafb0;
+        } 
+    }
+    .btn.btn-primary {
+        position: absolute;
+        top: 45px;
+        right: 20px;
+        font-size: 13px !important;
+        padding: 8px 5px !important;
+        font-family: montserrat-light !important;
+    }
+    .socmed {
+        img {
+            width: 18%;
+        }
+    }
+    .payment {
+        img {
+            width: 7%;
+        }
     }
 }
 

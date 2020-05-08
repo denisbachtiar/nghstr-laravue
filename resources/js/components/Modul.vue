@@ -18,8 +18,8 @@
             </b-col>
         </b-row>
         <h3 class="text-center mt-5 mb-5">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda</h3>
-        <b-row class="text-center mb-5">
-            <b-col md="3" sm="6" v-for="(item, index) in items" :key="index">
+        <b-row class="mb-5 modul">
+            <b-col md="3" sm="6" cols="6" v-for="(item, index) in items" :key="index">
                 <p class="mb-0" v-for="n in item.list">{{n}}</p>
             </b-col>
         </b-row>
