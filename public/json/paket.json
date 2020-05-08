@@ -2,8 +2,9 @@
     {
         "title": "Bayi",
         "original_price": "19.900",
-        "price": "14.900",
+        "price": "<b>14</b><sup><b>.900</b>",
         "user": "938",
+        "best_seller": false,
         "list": [
             "<b>0.5X RESOURCE POWER</b>",
             "<b>500 MB</b> Disk Space",
@@ -17,8 +18,9 @@
     {
         "title": "Pelajar",
         "original_price": "46.900",
-        "price": "23.450",
+        "price": "<b>23</b><sup><b>.450</b>",
         "user": "4.168",
+        "best_seller": false,
         "list": [
             "<b>1X RESOURCE POWER</b>",
             "<b>Unlimited</b> Disk Space",
@@ -34,8 +36,9 @@
     {
         "title": "Personal",
         "original_price": "58.900",
-        "price": "38.900",
+        "price": "<b>38</b><sup><b>.900</b>",
         "user": "10.017",
+        "best_seller": true,
         "list": [
             "<b>2X RESOURCE POWER</b>",
             "<b>Unlimited</b> Disk Space",
@@ -53,8 +56,9 @@
     {
         "title": "Bisnis",
         "original_price": "109.900",
-        "price": "65.900",
+        "price": "<b>65</b><sup><b>.900</b>",
         "user": "3.552",
+        "best_seller": false,
         "list": [
             "<b>3X RESOURCE POWER</b>",
             "<b>Unlimited</b> Disk Space",

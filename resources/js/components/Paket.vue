@@ -6,67 +6,25 @@
         </div>
         <div class="container">
         <b-card-group deck>
-            <b-card title="Bayi" img-alt="Image" img-top>
-            <div class="price">
-                <p class="mb-0">Rp. 19.900</p>
-                <h1 class="mb-0"><sup>Rp </sup><b>14</b><sup><b>.900</b>/bln</sup></h1>
-            </div>
-            <div class="user">
-                <p class="mb-0"><b>938 </b>Pengguna Terdaftar</p>
-            </div>
-            <div class="list">
-                <p class="mb-2"><b>0.5X RESOURCE POWER</b></p>
-                <p class="mb-2"><b>500 MB</b> Disk Space</p>
-                <p class="mb-2"><b>Unlimited</b> Bandwith</p>
-                <p class="mb-2"><b>Unlimited</b> Database</p>
-                <p class="mb-2"><b>1</b> Domain</p>
-                <p class="mb-2"><b>Instant</b> Backup</p>
-                <p class="mb-2"><b>Unlimited SSL</b> Gratis Selamanya</p>
-                <b-button variant="outline-dark" pill class="mx-auto d-block mt-5">Pilih Sekarang</b-button>
-            </div>
-            </b-card>
+            <b-card v-for="(item, index) in items" v-bind:class="{'best-seller':item.best_seller}" :key="index" :title="item.title" >
 
-            <b-card title="Pelajar" img-alt="Image" img-top>
-            <b-card-text>
-                This card has supporting text below as a natural lead-in to additional content.
-            </b-card-text>
-            <template v-slot:footer>
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </template>
-
-            </b-card>
-            <b-card title="Personal" class="best-seller" img-alt="Image" img-top>
-            <div class="ribbon-parent">
+            <div class="ribbon-parent" v-if="item.best_seller">
                 <p class="ribbon"><span>Best Seller!</span></p>
             </div>
+
             <div class="price">
-                <p class="mb-0">Rp. 58.900</p>
-                <h1 class="mb-0"><sup>Rp </sup><b>38</b><sup><b>.900</b>/bln</sup></h1>
+                <p class="mb-0">Rp. {{item.original_price}}</p>
+                <h1 class="mb-0"><sup>Rp </sup><span v-html="item.price"></span><sup>/bln</sup></h1>
             </div>
             <div class="user">
-                <p class="mb-0"><b>10.017 </b>Pengguna Terdaftar</p>
+                <p class="mb-0"><b>{{item.user}} </b>Pengguna Terdaftar</p>
             </div>
             <div class="list">
-                <p class="mb-2"><b>2X RESOURCE POWER</b></p>
-                <p class="mb-2"><b>500 MB</b> Disk Space</p>
-                <p class="mb-2"><b>Unlimited</b> Bandwith</p>
-                <p class="mb-2"><b>Unlimited</b> Database</p>
-                <p class="mb-2"><b>1</b> Domain</p>
-                <p class="mb-2"><b>Instant</b> Backup</p>
-                <p class="mb-2"><b>Unlimited SSL</b> Gratis Selamanya</p>
+                <p class="mb-2" v-for="n in item.list" v-html="n"></p>
                 <b-button variant="outline-dark" pill class="mx-auto d-block mt-5">Pilih Sekarang</b-button>
             </div>
             </b-card>
-
-            <b-card title="Bisnis" img-alt="Image" img-top>
-            <b-card-text>
-                This is a wider card with supporting text below as a natural lead-in to additional content.
-                This card has even longer content than the first to show that equal height action.
-            </b-card-text>
-            <template v-slot:footer>
-                <small class="text-muted">Last updated 3 mins ago</small>
-            </template>
-            </b-card>
+           
         </b-card-group>
         
         <h3 class="text-center mt-5 mb-5">Powerful dengan Limit PHP yang Lebih Besar</h3>
@@ -124,3 +82,14 @@
         </div>
     </div>
 </template>
+
+<script>
+import paket from "../../../public/json/paket.json"
+export default {
+    data() {
+        return {
+            items: paket
+        }
+    },
+}
+</script>
