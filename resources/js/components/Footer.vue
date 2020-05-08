@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bg-sky pt-5 pb-5">
-            <div class="container d-flex align-items-center">
+            <div class="container d-flex flex-wrap align-items-center">
                 <h2 class="text-white mb-0">Perlu <b>BANTUAN?</b> Hubungi Kami : <b>0274-5305505</b></h2>
                 <b-button variant="outline-secondary" class="ml-auto" pill>Live Chat</b-button>
             </div>
@@ -10,34 +10,34 @@
         <footer>
             <div class="container pt-5 pb-5">
                 <b-row>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Hubungi Kami</b></p>
                         <p>0274-5305505<br>Senin - Minggu<br>24 Jam Nonstop<br><br>Jl. Selokan Mataram Monjali Karangjati MT I/304<br>Sinduadi, Mlati, Sleman<br>Yogyakarta 55284</p>
                     </b-col>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Layanan</b></p>
                         <p>Domain<br>Shared Hosting<br>Cloud VPS Hosting<br>Managed VPS Hosting<br>Web builder<br>Keamanan SSL/HTTPS<br>Jasa Pembuatan Website<br>Program Affiliasi</p>
                     </b-col>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Service Hosting</b></p>
                         <p>Hosting Murah<br>Hosting Indonesia<br>Hosting Singapura SG<br>Hosting PHP<br>Hosting Wordpress<br>Hosting Laravel</p>
                     </b-col>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Tutorial</b></p>
                         <p>Knowledgebase<br>Blog<br>Cara Pembayaran</p>
                     </b-col>
                 </b-row>
 
                 <b-row class="mt-5">
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Tentang Kami</b></p>
                         <p>Tim Niagahoster<br>Karir<br>Events<br>Penawaran & Promo Spesial<br>Kontak Kami</p>
                     </b-col>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Kenapa Pilih Niagahoster?</b></p>
                         <p>Support Terbaik<br>Garansi Harga Termurah<br>Domain Gratis Selamanya<br>Datacenter Hosting Terbaik<br>Review Pelanggan</p>
                     </b-col>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Newsletter</b></p>
                         <b-form-input
                         id="input-1"
@@ -47,7 +47,7 @@
                         ></b-form-input>
                         <p class="disable"><small>Dapatkan promo dan konten menarik dari penyedia hosting terbaik anda</small></p>
                     </b-col>
-                    <b-col cols="3">
+                    <b-col md="3" sm="12">
                         <p class="title"><b>Social Media</b></p>
                     </b-col>
                 </b-row>

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .nav-parent .navbar .navbar-brand {
+        width: 45% !important;
+    }
+    .bg-sky {
+        h2 {
+            font-size: 20px;
+        }
+        .ml-auto {
+            margin-left: unset !important;
+            margin-top: 20px;
+        }
+    }
+    .sect {
+        .btn {
+            margin-bottom: 20px;
+        }
+    }
+  }

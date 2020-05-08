@@ -32,11 +32,22 @@ p {
     }
 }
 
-ul {
-    padding-inline-start: 15px;
+ul.list {
+    padding-inline-start: 0px !important;
     li {
+        list-style: none;
         b {
             font-family: montserrat-bold !important;
+        }
+        &::before {
+            content: "";
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            margin-right: 7px;
+            background-image: url("../../public/images/svg/checklist.svg");
+            background-repeat: no-repeat;
+            vertical-align: bottom;
         }
     }
 }
@@ -49,6 +60,19 @@ ul {
         .navbar-brand {
             width: 18%;
         }
+        .nav-item {
+            &.last {
+                .nav-link {
+                    padding-right: 0rem !important;
+                }
+            }
+        }
+        .nav-link {
+            padding-right: 1rem !important;
+            &:hover, .nav-link:focus {
+                color: #168fee !important;
+            }
+        }
     }
 }
 
@@ -59,6 +83,7 @@ ul {
         } 
     }
 }
+
 .jumbotron-parent {
     border-bottom: solid 1px #f1f1f1;
     margin-bottom: 50px;
@@ -142,10 +167,24 @@ ul {
 }
 }
 
+.bg-gray {
+    background-color: #f7f7f7;
+    .row {
+        padding: 25px 0px 25px 0px;
+    }
+}
+
+.row.list-item {
+    width: 80%;
+    margin: 0 auto;
+}
 .list-group-item {
     text-align: center;
     padding: 0.5rem 1.25rem !important;
     border: 1px solid rgba(0, 0, 0, 0.05) !important;
+    span {
+        text-align: center;
+    }
     &:nth-child(2) {
         background-color: #f7f7f7;
     }
@@ -154,6 +193,17 @@ ul {
     }
     &:last-child {
         border-radius: unset !important;
+    }
+    &::before {
+        content: "";
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        left: 10px;
+        background-image: url("../../public/images/svg/checklist.svg");
+        background-repeat: no-repeat;
+        vertical-align: bottom;
     }
 }
 
@@ -240,4 +290,8 @@ footer {
     &:after {
         left:22px;
     }
+  }
+
+  .iconify {
+    vertical-align: text-bottom !important;
   }

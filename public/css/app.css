@@ -61,13 +61,28 @@ p b {
   font-family: montserrat-bold !important;
 }
 
-ul {
-  -webkit-padding-start: 15px;
-          padding-inline-start: 15px;
+ul.list {
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
 }
 
-ul li b {
+ul.list li {
+  list-style: none;
+}
+
+ul.list li b {
   font-family: montserrat-bold !important;
+}
+
+ul.list li::before {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin-right: 7px;
+  background-image: url(/images/checklist.svg?217a0b111765a252c52b9ba22f5daa9b);
+  background-repeat: no-repeat;
+  vertical-align: bottom;
 }
 
 .nav-parent {
@@ -78,6 +93,19 @@ ul li b {
 
 .nav-parent .navbar .navbar-brand {
   width: 18%;
+}
+
+.nav-parent .navbar .nav-item.last .nav-link {
+  padding-right: 0rem !important;
+}
+
+.nav-parent .navbar .nav-link {
+  padding-right: 1rem !important;
+}
+
+.nav-parent .navbar .nav-link:hover,
+.nav-parent .navbar .nav-link .nav-link:focus {
+  color: #168fee !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -180,10 +208,27 @@ ul li b {
   color: #ffffff;
 }
 
+.bg-gray {
+  background-color: #f7f7f7;
+}
+
+.bg-gray .row {
+  padding: 25px 0px 25px 0px;
+}
+
+.row.list-item {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .list-group-item {
   text-align: center;
   padding: 0.5rem 1.25rem !important;
   border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.list-group-item span {
+  text-align: center;
 }
 
 .list-group-item:nth-child(2) {
@@ -196,6 +241,18 @@ ul li b {
 
 .list-group-item:last-child {
   border-radius: unset !important;
+}
+
+.list-group-item::before {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 10px;
+  background-image: url(/images/checklist.svg?217a0b111765a252c52b9ba22f5daa9b);
+  background-repeat: no-repeat;
+  vertical-align: bottom;
 }
 
 hr {
@@ -287,6 +344,29 @@ footer hr {
 
 .ribbon:after {
   left: 22px;
+}
+
+.iconify {
+  vertical-align: text-bottom !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-parent .navbar .navbar-brand {
+    width: 45% !important;
+  }
+
+  .bg-sky h2 {
+    font-size: 20px;
+  }
+
+  .bg-sky .ml-auto {
+    margin-left: unset !important;
+    margin-top: 20px;
+  }
+
+  .sect .btn {
+    margin-bottom: 20px;
+  }
 }
 
 

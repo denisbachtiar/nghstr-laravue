@@ -2,7 +2,7 @@
     <div>
     <div class="container">
         <h3 class="text-center mt-5 mb-5">Mendukung Penuh Framework Laravel</h3>
-        <b-row>
+        <b-row class="sect">
             <b-col lg="6">
                 <p>Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit anda</p>
                 <ul>
@@ -19,13 +19,13 @@
         </b-row>
         <h3 class="text-center mt-5 mb-5">Modul Lengkap untuk Menjalankan Aplikasi PHP Anda</h3>
         <b-row class="text-center mb-5">
-            <b-col lg="3" sm="6" v-for="(item, index) in items" :key="index">
+            <b-col md="3" sm="6" v-for="(item, index) in items" :key="index">
                 <p class="mb-0" v-for="n in item.list">{{n}}</p>
             </b-col>
         </b-row>
         <b-button variant="outline-dark" pill class="mx-auto d-block">Selengkapnya</b-button>
 
-        <b-row class="mt-5">
+        <b-row class="mt-5 sect">
             <b-col lg="6" class="pr-5">
                 <h3 class="mb-3">Linux Hosting yang Stabil dengan Teknologi LVE</h3>
                 <p>SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128 GB</b> dan <br>teknologi <b>LVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi <br/>dengan <b>SSD</b> untuk kecepatan <b>MySQL</b> dan caching. Apache load balancer <br/>berbasis LiteSpeed Technologies, <b>CageFS</b> security, <b>Raid-10</b> proctection <br/>dan auto backup untuk keamanan website PHP Anda.</p>
@@ -61,12 +61,3 @@ export default {
     },
 }
 </script>
-
-<style lang="scss">
-    .bg-gray {
-        background-color: #f7f7f7;
-        .row {
-            padding: 25px 0px 25px 0px;
-        }
-    }
-</style>
