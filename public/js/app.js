@@ -1963,6 +1963,13 @@ var _public_json_modul_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -80118,7 +80125,13 @@ var render = function() {
               staticClass: "ml-auto",
               attrs: { variant: "outline-secondary", pill: "" }
             },
-            [_vm._v("Live Chat")]
+            [
+              _c("span", {
+                staticClass: "iconify mr-2",
+                attrs: { "data-icon": "zmdi:comments", "data-inline": "false" }
+              }),
+              _vm._v("  Live Chat")
+            ]
           )
         ],
         1
@@ -80585,7 +80598,36 @@ var render = function() {
                 ])
               ]),
               _vm._v(" "),
-              _c("b-col", { attrs: { lg: "6" } })
+              _c("b-col", { attrs: { lg: "6" } }, [
+                _c("div", { staticClass: "d-flex align-items-center socmed" }, [
+                  _c("img", {
+                    staticClass: "ml-auto",
+                    attrs: { src: "/images/facebook.png", width: "30px" }
+                  }),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "mb-0 pointing-box" }, [
+                    _vm._v("80k")
+                  ]),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "ml-2",
+                    attrs: { src: "/images/twitter.png", width: "30px" }
+                  }),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "mb-0 pointing-box" }, [
+                    _vm._v("450")
+                  ]),
+                  _vm._v(" "),
+                  _c("img", {
+                    staticClass: "ml-2",
+                    attrs: { src: "/images/gplus.png", width: "30px" }
+                  }),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "mb-0 pointing-box" }, [
+                    _vm._v("1900")
+                  ])
+                ])
+              ])
             ],
             1
           )

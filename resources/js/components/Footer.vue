@@ -3,7 +3,7 @@
         <div class="bg-sky pt-5 pb-5">
             <div class="container d-flex flex-wrap align-items-center">
                 <h2 class="text-white mb-0">Perlu <b>BANTUAN?</b> Hubungi Kami : <b>0274-5305505</b></h2>
-                <b-button variant="outline-secondary" class="ml-auto" pill>Live Chat</b-button>
+                <b-button variant="outline-secondary" class="ml-auto" pill><span class="iconify mr-2" data-icon="zmdi:comments" data-inline="false"></span>  Live Chat</b-button>
             </div>
         </div>
 

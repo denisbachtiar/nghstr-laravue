@@ -3,14 +3,22 @@
         width: 45% !important;
     }
     .l-top-nav {
+        display: none;
         p {
             font-size: 13px;
         }
     }
     .r-top-nav {
-        &.d-flex {
-            display: none !important;
+        // &.d-flex {
+        //     display: none !important;
+        // }
+        p {
+            font-size: 13px !important;
         }
+    }
+    .row.list-item {
+        width: 100%;
+        margin: 0 auto;
     }
     .bg-sky {
         h2 {
@@ -19,6 +27,14 @@
         .ml-auto {
             margin-left: unset !important;
             margin-top: 20px;
+        }
+    }
+    .bg-gray {
+        .socmed {
+            margin-top: 10px;
+            .ml-auto {
+                margin-left: unset !important;
+            }
         }
     }
     .sect {

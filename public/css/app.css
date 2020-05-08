@@ -89,6 +89,15 @@ ul.list li::before {
   vertical-align: bottom;
 }
 
+.l-top-nav p {
+  font-family: montserrat-hairline !important;
+}
+
+.r-top-nav p {
+  font-size: 14px !important;
+  font-family: montserrat-hairline !important;
+}
+
 .nav-parent {
   border-top: solid 1px #f1f1f1;
   border-bottom: solid 1px #f1f1f1;
@@ -276,6 +285,10 @@ hr {
   font-size: 1.1rem !important;
 }
 
+.btn.btn-primary:hover {
+  background-color: #0069d9 !important;
+}
+
 .btn.btn-outline-dark {
   color: #4c4c4c;
   padding: 10px 30px !important;
@@ -347,7 +360,7 @@ footer .form-control::placeholder {
 
 footer .btn.btn-primary {
   position: absolute;
-  top: 45px;
+  top: 44px;
   right: 20px;
   font-size: 13px !important;
   padding: 8px 5px !important;
@@ -415,17 +428,45 @@ footer .payment img {
   vertical-align: text-bottom !important;
 }
 
+.pointing-box {
+  position: relative;
+  padding: 3px 12px;
+  margin-left: 6px;
+  border: 1px solid #cdcdcd;
+  font-size: 14px !important;
+  color: #cdcdcd;
+}
+
+.pointing-box:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -12px;
+  z-index: 1;
+  border: solid 6px transparent;
+  border-right-color: #cdcdcd;
+}
+
 @media only screen and (max-width: 600px) {
   .nav-parent .navbar .navbar-brand {
     width: 45% !important;
+  }
+
+  .l-top-nav {
+    display: none;
   }
 
   .l-top-nav p {
     font-size: 13px;
   }
 
-  .r-top-nav.d-flex {
-    display: none !important;
+  .r-top-nav p {
+    font-size: 13px !important;
+  }
+
+  .row.list-item {
+    width: 100%;
+    margin: 0 auto;
   }
 
   .bg-sky h2 {
@@ -435,6 +476,14 @@ footer .payment img {
   .bg-sky .ml-auto {
     margin-left: unset !important;
     margin-top: 20px;
+  }
+
+  .bg-gray .socmed {
+    margin-top: 10px;
+  }
+
+  .bg-gray .socmed .ml-auto {
+    margin-left: unset !important;
   }
 
   .sect .btn {

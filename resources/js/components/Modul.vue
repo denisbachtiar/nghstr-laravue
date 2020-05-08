@@ -43,7 +43,14 @@
                     <p class="mb-0"><b>Bagikan jika Anda menyukai halaman ini</b></p>
                 </b-col>
                 <b-col lg="6">
-
+                    <div class="d-flex align-items-center socmed">
+                        <img :src="'/images/facebook.png'" class="ml-auto" width="30px">
+                        <p class="mb-0 pointing-box">80k</p>
+                        <img :src="'/images/twitter.png'" class="ml-2" width="30px">
+                        <p class="mb-0 pointing-box">450</p>
+                        <img :src="'/images/gplus.png'" class="ml-2" width="30px">
+                        <p class="mb-0 pointing-box">1900</p>
+                    </div>
                 </b-col>
             </b-row>
         </div>
