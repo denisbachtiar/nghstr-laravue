@@ -82,17 +82,64 @@ ul {
     }
 }
 
+.card-deck {
 .card {
+    font-family: roboto-light !important;
+    margin-right: unset !important;
+    margin-left: unset !important;
+    border-radius: 0px !important;
+    sup {
+        font-size: 50% !important;
+    }
     .card-body {
         text-align: center;
-        padding: .5rem 0px !important;
+        padding: 0px !important;
+        b {
+            font-family: roboto-bold !important;
+        }
         .card-title {
-            font-weight: bold;
-            padding-bottom: .5rem !important;
-            font-family: montserrat-bold !important;
+            padding: .5rem 0px !important;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            font-family: roboto-bold !important;
+            margin-bottom: 0px;
+        }
+        .price {
+            padding: 1rem 0rem;
+            p {
+                text-decoration: line-through;
+            }
+        }
+        .user {
+            padding: .5rem 0px;
+            border-top: 1px solid rgba(0, 0, 0, 0.125);
             border-bottom: 1px solid rgba(0, 0, 0, 0.125);
         }
+        .list {
+            padding: 2rem 0px;
+            .btn.btn-outline-dark {
+                font-size: .9rem !important;
+            }
+        }
     }
+    &.best-seller {
+        border: 1px solid #168fee;
+        .card-title {
+            background: #168fee;
+            background-clip: border-box;
+            color: #ffffff;
+        }
+        .price {
+            background: #168fee;
+            background-clip: border-box;
+            color: #ffffff;
+        }
+        .user {
+            background: #107fde;
+            background-clip: border-box;
+            color: #ffffff;
+        }
+    }
+}
 }
 
 .list-group-item {
@@ -151,3 +198,46 @@ footer {
         width: 100%;
     }
 }
+
+.ribbon-parent {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    overflow: hidden;
+}
+.ribbon {
+    margin: 0;
+    text-align: center;
+    background: #2fb359;
+    color: white;
+    padding: .5em 0;
+    position: absolute;
+    width: 200px;
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+    margin-bottom: 0;
+    span {
+        margin-left: 25px;
+        font-family: roboto-bold !important;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    &:before,.ribbon:after {
+        content: '';
+        position: absolute;
+        top:0;
+        margin: 0 -1px;
+        width: 0%;
+        height: 100%;
+        background: #1d7832;
+    }
+    &:before {
+        right:4px;
+    }
+    &:after {
+        left:22px;
+    }
+  }

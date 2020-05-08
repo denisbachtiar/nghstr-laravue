@@ -80663,20 +80663,78 @@ var render = function() {
       [
         _c(
           "b-card-group",
+          { attrs: { deck: "" } },
           [
             _c(
               "b-card",
               { attrs: { title: "Bayi", "img-alt": "Image", "img-top": "" } },
               [
                 _c("div", { staticClass: "price" }, [
-                  _c("p", [_vm._v("Rp. 19.900")]),
+                  _c("p", { staticClass: "mb-0" }, [_vm._v("Rp. 19.900")]),
                   _vm._v(" "),
-                  _c("h5", [
+                  _c("h1", { staticClass: "mb-0" }, [
                     _c("sup", [_vm._v("Rp ")]),
-                    _vm._v("14"),
-                    _c("sup", [_vm._v(".900/bln")])
+                    _c("b", [_vm._v("14")]),
+                    _c("sup", [_c("b", [_vm._v(".900")]), _vm._v("/bln")])
                   ])
-                ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "user" }, [
+                  _c("p", { staticClass: "mb-0" }, [
+                    _c("b", [_vm._v("938 ")]),
+                    _vm._v("Pengguna Terdaftar")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "list" },
+                  [
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("0.5X RESOURCE POWER")])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("500 MB")]),
+                      _vm._v(" Disk Space")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Unlimited")]),
+                      _vm._v(" Bandwith")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Unlimited")]),
+                      _vm._v(" Database")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("1")]),
+                      _vm._v(" Domain")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Instant")]),
+                      _vm._v(" Backup")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Unlimited SSL")]),
+                      _vm._v(" Gratis Selamanya")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "b-button",
+                      {
+                        staticClass: "mx-auto d-block mt-5",
+                        attrs: { variant: "outline-dark", pill: "" }
+                      },
+                      [_vm._v("Pilih Sekarang")]
+                    )
+                  ],
+                  1
+                )
               ]
             ),
             _vm._v(" "),
@@ -80711,29 +80769,83 @@ var render = function() {
             _c(
               "b-card",
               {
-                attrs: { title: "Personal", "img-alt": "Image", "img-top": "" },
-                scopedSlots: _vm._u([
-                  {
-                    key: "footer",
-                    fn: function() {
-                      return [
-                        _c("small", { staticClass: "text-muted" }, [
-                          _vm._v("Last updated 3 mins ago")
-                        ])
-                      ]
-                    },
-                    proxy: true
-                  }
-                ])
+                staticClass: "best-seller",
+                attrs: { title: "Personal", "img-alt": "Image", "img-top": "" }
               },
               [
-                _c("b-card-text", [
-                  _vm._v(
-                    "\n            This is a wider card with supporting text below as a natural lead-in to additional content.\n            This card has even longer content than the first to show that equal height action.\n        "
-                  )
-                ])
-              ],
-              1
+                _c("div", { staticClass: "ribbon-parent" }, [
+                  _c("p", { staticClass: "ribbon" }, [
+                    _c("span", [_vm._v("Best Seller!")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "price" }, [
+                  _c("p", { staticClass: "mb-0" }, [_vm._v("Rp. 58.900")]),
+                  _vm._v(" "),
+                  _c("h1", { staticClass: "mb-0" }, [
+                    _c("sup", [_vm._v("Rp ")]),
+                    _c("b", [_vm._v("38")]),
+                    _c("sup", [_c("b", [_vm._v(".900")]), _vm._v("/bln")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "user" }, [
+                  _c("p", { staticClass: "mb-0" }, [
+                    _c("b", [_vm._v("10.017 ")]),
+                    _vm._v("Pengguna Terdaftar")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "list" },
+                  [
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("2X RESOURCE POWER")])
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("500 MB")]),
+                      _vm._v(" Disk Space")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Unlimited")]),
+                      _vm._v(" Bandwith")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Unlimited")]),
+                      _vm._v(" Database")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("1")]),
+                      _vm._v(" Domain")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Instant")]),
+                      _vm._v(" Backup")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "mb-2" }, [
+                      _c("b", [_vm._v("Unlimited SSL")]),
+                      _vm._v(" Gratis Selamanya")
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "b-button",
+                      {
+                        staticClass: "mx-auto d-block mt-5",
+                        attrs: { variant: "outline-dark", pill: "" }
+                      },
+                      [_vm._v("Pilih Sekarang")]
+                    )
+                  ],
+                  1
+                )
+              ]
             ),
             _vm._v(" "),
             _c(

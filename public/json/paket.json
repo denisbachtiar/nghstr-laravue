@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Bayi",
+        "original_price": "19.900",
+        "price": "14.900",
+        "user": "938",
+        "list": [
+            "<b>0.5X RESOURCE POWER</b>",
+            "<b>500 MB</b> Disk Space",
+            "<b>Unlimited</b> Bandwith",
+            "<b>Unlimited</b> Database",
+            "<b>1</b> Domain",
+            "<b>Instant</b> Backup",
+            "<b>Unlimited SSL</b> Gratis Selamanya"
+        ]
+    },
+    {
+        "title": "Pelajar",
+        "original_price": "46.900",
+        "price": "23.450",
+        "user": "4.168",
+        "list": [
+            "<b>1X RESOURCE POWER</b>",
+            "<b>Unlimited</b> Disk Space",
+            "<b>Unlimited</b> Bandwith",
+            "<b>Unlimited</b> POP3 Email",
+            "<b>Unlimited</b> Database",
+            "<b>10</b> Addon Domain",
+            "<b>Instant</b> Backup",
+            "<b>Domain Gratis</b> Gratis Selamanya",
+            "<b>Unlimited SSL</b> Gratis Selamanya"
+        ]
+    },
+    {
+        "title": "Personal",
+        "original_price": "58.900",
+        "price": "38.900",
+        "user": "10.017",
+        "list": [
+            "<b>2X RESOURCE POWER</b>",
+            "<b>Unlimited</b> Disk Space",
+            "<b>Unlimited</b> Bandwith",
+            "<b>Unlimited</b> POP3 Email",
+            "<b>Unlimited</b> Database",
+            "<b>Unlimited</b> Addon Domain",
+            "<b>Instant</b> Backup",
+            "<b>Domain Gratis</b> Gratis Selamanya",
+            "<b>Unlimited SSL</b> Gratis Selamanya",
+            "<b>Private</b> Name Server",
+            "<b>SpamAssasin</b> Mail Protection"
+        ]
+    },
+    {
+        "title": "Bisnis",
+        "original_price": "109.900",
+        "price": "65.900",
+        "user": "3.552",
+        "list": [
+            "<b>3X RESOURCE POWER</b>",
+            "<b>Unlimited</b> Disk Space",
+            "<b>Unlimited</b> Bandwith",
+            "<b>Unlimited</b> POP3 Email",
+            "<b>Unlimited</b> Database",
+            "<b>Unlimited</b> Addon Domain",
+            "<b>Magic Auto</b> Backup & Restore",
+            "<b>Domain Gratis</b> Gratis Selamanya",
+            "<b>Unlimited SSL</b> Gratis Selamanya",
+            "<b>Private</b> Name Server",
+            "<b>Prioritas</b> Layanan Support",
+            "<b>SpamExpert</b> Pro Mail Protection"
+        ]
+    }
+]
